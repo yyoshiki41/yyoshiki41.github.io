@@ -134,3 +134,6 @@ DEPENDENCIES
   execjs
   github-pages
   therubyracer
+
+BUNDLED WITH
+   1.10.6
