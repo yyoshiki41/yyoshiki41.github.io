@@ -3,7 +3,7 @@ layout: post
 title: Build Hive
 ---
 
-hadoop のビルドについては、<a href="./../build_hadoop" target="_blank">こちら</a>を参考に！
+hadoop のビルドについては、<a href="./../build-hadoop/" target="_blank">こちら</a>を参考に！
 
 ### ■各バージョン
 - **CentOS 7 x86_64 (2014_09_29) EBS HVM**
