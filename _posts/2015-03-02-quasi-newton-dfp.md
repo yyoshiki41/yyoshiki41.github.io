@@ -12,7 +12,7 @@ subtitle: C++
 「準」と付いている通り，その更新式は<a href="http://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E6%B3%95" target="_blank">ニュートン法</a>の式を準えています。
 
 #### 1.2　ニュートン法の原理
-<img src="{{ site.url }}/img/posts/quasi-newton/IMG_0929.jpg" alt="min_f" width="90" height="38" class="alignnone size-full wp-image-370" />
+<img src="{{ site.url }}/img/posts/quasi-newton/min_f.jpg" alt="min_f" width="90" height="38" class="alignnone size-full wp-image-370" />
 
 上の無制約最適化問題の最小値は、最適性の条件式(微分した関数が０)で与えられる。
 
