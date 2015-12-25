@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (username.github.io) then use these settings:
 # url: "http://esola.co"
-url: "http://yyoshiki41.github.io"
+url: "http://esola.co"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -18,7 +18,7 @@ baseurl: ""
 title: Just one side of me
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: tech, programming
 
 # --- Navigation bar options --- #
 
@@ -29,9 +29,9 @@ avatar: "/img/avatar-icon.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  Presentation: "presentation"
   About Me: "aboutme"
-  # GitHub: "https://github.com/yyoshiki41"
-  
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -74,7 +74,7 @@ timezone: "Asia/Tokyo"
 markdown: kramdown
 highlighter: pygments
 permalink: /posts/:year/:title
-paginate: 4
+paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
