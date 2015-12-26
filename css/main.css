@@ -411,3 +411,6 @@ header.header-post .post-heading .post-subheading {
 article img {
   max-width: 100%;
 }
+.addthis_sharing_toolbox {
+  margin-top: 10px;
+}
