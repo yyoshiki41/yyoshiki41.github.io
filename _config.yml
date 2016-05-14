@@ -1,10 +1,12 @@
-# --- Serving options --- #
+# --- General options --- #
+
+# Gems
+gems: [jekyll-paginate]
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-# If you are building a simple GitHub user page (username.github.io) then use these settings:
-# url: "http://esola.co"
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://esola.co"
 baseurl: ""
 
@@ -22,15 +24,15 @@ description: tech, programming
 
 # --- Navigation bar options --- #
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
-
 # List of links in the navigation bar
 navbar-links:
   Home: ""
   Presentation: "presentation"
   About Me: "aboutme"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/img/avatar-icon.png"
 
 # --- Footer options --- #
 
@@ -39,12 +41,12 @@ navbar-links:
 author:
   name: Yoshiki Nakagawa
   email: "yyoshiki41@gmail.com"
-  facebook: yyoshiki41  # eg. daattali
-  github: yyoshiki41    # eg. daattali
-  twitter: yyoshiki41   # eg. daattali
-  linkedin: "/in/yyoshiki41"  # eg. "pub/dean-attali/8/946/143"
-  stackoverflow: "5029207/yoshiki-nakagawa"  # eg. "3943160/daattali"
- 
+  facebook: yyoshiki41
+  github: yyoshiki41
+  twitter: yyoshiki41
+  linkedin: "in/yyoshiki41"
+  stackoverflow: "5029207/yoshiki-nakagawa"
+
 # Select which links to show in the footer
 footer-links-active:
   rss: false
@@ -72,7 +74,7 @@ google_analytics: "UA-55191126-1"
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Tokyo"
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /posts/:year/:title
 paginate: 5
 
@@ -83,12 +85,14 @@ defaults:
       path: ""
       type: "posts"
     values:
+      layout: "post"
       comments: true  # add comments to all blog posts
   -
     scope:
       path: "" # all files
     values:
-      layout: "default"
+      layout: "page"
+      show-avatar: true
 
 # Exclude these files from production site
 exclude:
