@@ -6,7 +6,10 @@ title: SSH Tunnel
 [Sequel Pro](http://www.sequelpro.com/) で、SSH Port Forwarding を利用してのDBへの接続をよく行う。
 
 構成としては、下記みたいなオーソドックスな構成。
-(Bastionの`port: 43306`を、DBサーバーの`port: 3306`にバインド)
+(Bastionの`port: 43306`を、DBサーバーの`port: 3306`にバインド。)
+```
+ssh -f -N -C -L 43306:localhost:3306 yyoshiki41@database.server -p 22
+```
 
 [![]({{ site.url }}/img/posts/ssh-tunnel/client-bastion-db.png)]({{ site.url }}/img/posts/ssh-tunnel/client-bastion-db.png)
 
