@@ -3,14 +3,14 @@ layout: post
 title: SSH Tunnel
 ---
 
-[Sequel Pro](http://www.sequelpro.com/) で、SSH Port Forwarding を利用してのDBサーバーへの接続をよく行う。
+[Sequel Pro](http://www.sequelpro.com/) で、SSH Port Forwarding を利用してのDBへの接続をよく行う。
 
 構成としては、下記みたいなオーソドックスな構成。
-(Bastionの`port: 43306`を、DBサーバーの`port: 3306`にバインド。)
+(Bastionの`port: 43306`を、DBサーバーの`port: 3306`にバインド)
 
 [![]({{ site.url }}/img/posts/ssh-tunnel/client-bastion-db.png)]({{ site.url }}/img/posts/ssh-tunnel/client-bastion-db.png)
 
-ふと、Sequel の接続方法が気になったので見てみた。
+ふと、Sequel の接続方法が気になったのでみてみた。
 
 [![]({{ site.url }}/img/posts/ssh-tunnel/sequel.png)]({{ site.url }}/img/posts/ssh-tunnel/sequel.png)
 
@@ -33,6 +33,4 @@ Enter password:
 mysql>
 ```
 
-cf.
-
-[Set up an SSH Tunnel](http://www.sequelpro.com/docs/Set_up_an_SSH_Tunnel)
+cf. [Set up an SSH Tunnel](http://www.sequelpro.com/docs/Set_up_an_SSH_Tunnel)
