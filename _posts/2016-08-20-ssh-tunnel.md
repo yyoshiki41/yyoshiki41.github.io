@@ -32,3 +32,7 @@ Enter password:
 
 mysql>
 ```
+
+cf.
+
+[Set up an SSH Tunnel](http://www.sequelpro.com/docs/Set_up_an_SSH_Tunnel)
