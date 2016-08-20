@@ -20,7 +20,7 @@ ssh -f -N -C -L 43306:localhost:3306 yyoshiki41@database.server -p 22
 
 上記のような設定に対して、
 
-ssh-agentを起動して、クライアントマシンの`port: 56430`をBastionの`43306`にバインドしている。
+ssh-agentを起動して、クライアントマシンの`port: 56430`をBastionの`port: 43306`にバインドしている。
 
 ```
 $ ps aux | grep [s]sh
