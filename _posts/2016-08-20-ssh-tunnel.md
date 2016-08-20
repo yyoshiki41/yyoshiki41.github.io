@@ -7,6 +7,7 @@ title: SSH Tunnel
 
 構成としては、下記みたいなオーソドックスな構成。
 (Bastionの`port: 43306`を、DBサーバーの`port: 3306`にバインド。)
+
 ```
 ssh -f -N -C -L 43306:localhost:3306 yyoshiki41@database.server -p 22
 ```
