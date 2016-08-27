@@ -13,7 +13,7 @@ title: Highlight go extra vars
 
 結果的には、
 
-> these are just ordinary variables.
+> I don't want to include this as these are just ordinary variables.
 
 ということで、クローズされました。(泣
 
