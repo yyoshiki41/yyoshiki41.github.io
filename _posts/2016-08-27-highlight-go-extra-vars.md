@@ -7,7 +7,7 @@ title: Highlight go extra vars
 
 上のブログを読んで、良いな！と思ったので、[vim-go](https://github.com/fatih/vim-go) にPRを送ってみました。
 
-`err` だけでなく、_comma ok_というイディオムがあるくらいなので、`ok`もハイライト対象にしてみました。
+`err` だけでなく、 _comma ok_ というイディオムがあるくらいなので、`ok`もハイライト対象にしてみました。
 
 [#1024 Add go_highlight_extra_vars option](https://github.com/fatih/vim-go/pull/1024)
 
