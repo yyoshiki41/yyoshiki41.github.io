@@ -65,7 +65,7 @@ $ go tool nm $GOPATH/pkg/darwin_amd64/github.com/yyoshiki41/go-gmail-drafts/lib.
     635f R %22%22.readClient·f
 ```
 
-lib.a があると当然だけど、ビルド時間が短くなる。
+`lib.a`があると当然だけど、ビルド時間が短くなる。
 (リンク処理するオブジェクトファイル`lib.a`を生成する必要がないので)
 
 ```
