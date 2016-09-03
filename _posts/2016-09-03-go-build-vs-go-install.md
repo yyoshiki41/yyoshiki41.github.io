@@ -7,7 +7,7 @@ title: go build vs go install
 
 上のblogを読んでいて、_Using go build vs go install_ の部分が気になったので、その検証。
 
-blog自体のテーマはGoのクロスコンパイルの話なので、雑な要旨としては、
+blog自体のテーマはGoのクロスコンパイルの話で、雑に言うと
 
 「クロスコンパイルする必要があるプロジェクト = `go build` を使え。」
 
