@@ -13,9 +13,7 @@ Initialisms の導入については、[ここ](https://github.com/golang/go/wik
 var Url should be URL
 ```
 
-定義場所は下記で、
-
-[golang/lint](https://github.com/golang/lint) の `lint.go` に
+定義場所は、[golang/lint](https://github.com/golang/lint) の `lint.go` に下記のように
 
 ```
 var commonInitialisms = map[string]bool{
