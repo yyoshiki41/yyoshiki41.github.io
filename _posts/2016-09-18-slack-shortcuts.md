@@ -38,7 +38,7 @@ slack用のキーボードショートカットをkarabinerを使って、設定
 
 これは未読既読に関係なく、移動するショートカット。
 
-※ karabiner自体にも[Emacs風キーバインド設定](https://pqrs.org/osx/karabiner/gallery.html.ja#use-emacs-key-bindings-everywhere)を反映させる設定が提供されてます。
+※ 独自で`private.xml`を書かなくても、オプション機能として[Emacs風キーバインドを反映させる設定](https://pqrs.org/osx/karabiner/gallery.html.ja#use-emacs-key-bindings-everywhere)が提供されてます。
 
 ### Tips
 
