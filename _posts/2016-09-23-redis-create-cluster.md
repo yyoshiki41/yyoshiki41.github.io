@@ -48,7 +48,7 @@ Waiting for the cluster to join..
 [OK] All 16384 slots covered.
 ```
 
-以下のように、パイプを使って繋ぐといけます。
+以下のように、yesコマンドをパイプで繋いで、入力省略は出来ました。
 
 ```
 $ yes "yes" | ./create-cluster create
