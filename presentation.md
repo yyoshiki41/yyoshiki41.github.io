@@ -5,7 +5,11 @@ title: Presentation
 
 ### 2016
 
-- Tech Talk ~ eureka × MTI ~
+- Study Events ~ eureka × DMM.com Labo × インテリジェンス ~
+
+	<a href="http://go-talks.appspot.com/github.com/yyoshiki41/avoid-race-condition/main.slide" target="_blank">Avoid a race condition</a>
+
+- Study Events ~ eureka × MTI ~
 
 	<a href="https://speakerdeck.com/yyoshiki41/canary-deployments" target="_blank">Canary Deployments</a>
 
