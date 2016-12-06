@@ -3,6 +3,8 @@ layout: post
 title: Highlight go extra vars
 ---
 
+この記事は、Go (その3) Advent Calendar 2016 の3日目の記事です。
+
 ["err"という文字列をHighlightしておくとGolangのコードリーディングが捗る](http://yuroyoro.hatenablog.com/entry/2014/08/12/144157)
 
 上のブログを読んで、良いな！と思ったので、[vim-go](https://github.com/fatih/vim-go) にPRを送ってみました。
