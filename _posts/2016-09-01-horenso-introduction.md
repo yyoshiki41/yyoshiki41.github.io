@@ -11,24 +11,7 @@ title: horenso introduction
 
 下記のようなslack通知させる簡単な`reporter`をRubyでかきました。
 
-```
-require 'net/http'
-require 'uri'
-require 'json'
-
-resp = JSON.parse($stdin.gets)
-
-if resp["exitCode"] != 0 then
-  uri = URI.parse("https://hooks.slack.com/services/***")
-  payload = {
-    text: "```#{JSON.pretty_generate(resp)}```",
-    channel: "@yyoshiki41",
-    username: "Cron job fails",
-    icon_emoji: ":scream_cat:"
-  }
-  Net::HTTP.post_form(uri, { payload: payload.to_json })
-end
-```
+<script src="https://gist.github.com/yyoshiki41/b342c8b62e659536fa910322900c380a.js"></script>
 
 horensoから受け取ったjsonの`exitCode`をみて、異常終了した時だけ通知させる。
 
@@ -37,5 +20,5 @@ horensoから受け取ったjsonの`exitCode`をみて、異常終了した時�
 cron以外にも下のような手元で長時間のジョブ実行時に完了通知させるのにも便利。
 
 ```
-$ horenso -r "ruby /path/to/reprter.rb" -- sleep 1h
+$ horenso -r "ruby /path/to/reporter.rb" -- sleep 1h
 ```
