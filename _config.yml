@@ -75,8 +75,10 @@ google_analytics: "UA-55191126-1"
 timezone: "Asia/Tokyo"
 markdown: kramdown
 highlighter: rouge
-permalink: /posts/:year/:title
+permalink: /posts/:year/:title/
 paginate: 5
+kramdown:
+  input: GFM
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -148,5 +150,9 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
   
+
+gems:
+  - jekyll-paginate
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
