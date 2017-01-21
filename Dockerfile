@@ -11,4 +11,4 @@ EXPOSE 4000
 RUN bundle update
 RUN bundle install
 
-CMD bash -c "bundle exec jekyll serve  --watch --incremental --force_polling -H 0.0.0.0"
+CMD bash -c "bundle exec jekyll serve --watch --incremental --force_polling -H 0.0.0.0"
