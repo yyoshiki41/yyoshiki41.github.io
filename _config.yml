@@ -103,7 +103,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - Vagrantfile
+  - Dockerfile
 
 # prose.io config
 prose:
