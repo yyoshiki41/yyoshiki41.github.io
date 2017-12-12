@@ -3,6 +3,12 @@ layout: post
 title: Slack shortcuts using karabiner
 ---
 
+**karabiner-elementsでの設定は下の記事をご覧ください。**
+
+- [https://medium.com/@yyoshiki41/slack-のチャンネル移動ショートカットを-karabiner-elements-で設定する-79dd33438b02](https://medium.com/@yyoshiki41/slack-のチャンネル移動ショートカットを-karabiner-elements-で設定する-79dd33438b02)
+
+---
+
 slack用のキーボードショートカットをkarabinerを使って、設定したメモ。
 
 `private.xml` の設定方法は、[公式](https://pqrs.org/osx/karabiner/document.html.en#privatexml)にあるので、割愛。
