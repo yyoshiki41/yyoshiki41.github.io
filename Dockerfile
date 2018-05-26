@@ -3,7 +3,7 @@ FROM ruby:2.3.3
 LABEL maintainer "yyoshiki41@gmail.com"
 
 RUN mkdir -p /app
-ADD ./ /app
+COPY ./ /app
 WORKDIR /app
 
 EXPOSE 4000
