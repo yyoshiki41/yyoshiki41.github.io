@@ -154,9 +154,13 @@ built with OpenSSL 1.0.2e 3 Dec 2015
 TLS SNI support enabled
 configure arguments: --prefix=/usr/local/openresty/nginx --with-debug
 ~~ 省略 ~~
+```
+
 これで、ngx_luaを動かす環境が整いました。
 下記のようにnginx.confで、luaのスクリプトファイルを読み込ませ、
 Luaでアクセス制御のスクリプトを書いていきます。
+
+```
 # initファイル
 init_by_lua_file '/etc/nginx/scripts/init.lua';
 server {
